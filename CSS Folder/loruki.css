@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+    box-sizing: border-box;
+   
+   
+}
+body{
+    color: #fff;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    background-color: #46ed;
+    height: 70px;
+    margin: 0;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+
+}
+.showcase .grid{
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+.h{
+    font-weight: 70;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    gap: 30px;
+    align-items: center;
+}
+.card{
+    position: relative;
+    top: 60px;
+    background-color: #fff;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    color: #2e2c2cc8;
+    padding: 10px;
+    z-index: 100;
+   
+}
+.read{
+    background: transparent;
+    border: 1px solid;
+}
+
+input{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+button{
+    width: 70px;
+    background-color: #46ed;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(0.9);
+   
+    
+}
+
+p{
+    margin: 20px 0;
+}
+ul a{
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul a:hover{
+    border-bottom: 2px solid #fff;
+}
+.showcase{
+    background-color: #46ed;
+    height: 400px;
+    margin: 0;
+    overflow: visible;
+    position: relative;
+}
+.showcase::before,
+.showcase::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    transform: skewY(-2deg);
+    background-color: #fff;
+    -webkit-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+}
+
+

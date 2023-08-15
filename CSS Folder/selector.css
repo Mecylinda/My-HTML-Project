@@ -1,0 +1,22 @@
+li{
+    border:5px solid blue;
+}
+#select{
+    background: red;
+}
+.underline{
+    text-decoration: underline;
+    
+    background:gold;
+}
+.align{
+    background: yellowgreen;
+    ;
+}
+span{
+font-weight: bold;
+font-weight: ;
+}
+p{
+    text-align: center;
+}

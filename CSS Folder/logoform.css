@@ -1,0 +1,30 @@
+body{
+    min-height: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    gap: 20px;
+}
+.nm{
+    width: 100%;
+    
+}
+.input{
+    display: flex;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    gap: 20px;
+}
+.mail{
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}

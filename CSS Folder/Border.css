@@ -1,0 +1,18 @@
+h1{
+    border-width: 5px;
+    border-color: rgb(255, 0, 187);
+    border-style: dashed;
+    background-color: blueviolet;
+    text-align: center;
+}
+body{
+    background-color:  rgba(21, 23, 21, 0.717);
+}
+li{
+    color: rgb(255, 0, 187);
+
+}
+ul{
+    list-style: circle;
+    
+}

@@ -1,0 +1,86 @@
+*{
+padding: 0;
+box-sizing: border-box;
+    
+}
+.box3{
+    margin-right: 20px;
+}
+.red{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: solid;
+    font-family: Arial;
+}
+
+
+h2{
+    text-align: center;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border-radius: 3px 3px 3px 3px;
+}
+.flex{
+    display: flex;
+    margin-bottom: 20px;
+  
+}
+.box1{
+    width: 200px;
+}
+.box2{
+    margin-left: 70px;
+}
+.big{
+    width: 60px;
+    height: 30px;
+    background-color: silver;
+    border-radius: 3px;
+}
+.phone{
+    width: 580px;
+    background-color:silver;
+    border-radius: 3px;
+    height: 30px;
+}
+.phone1{
+    width: 300px;
+    background-color: silver;
+    height: 30px;
+    border-radius: 3px;
+}
+button{
+  
+  margin-left: 70px;
+
+}
+button{
+    margin-top: 30px;
+    background-color: red;
+    
+    
+}
+.radio{
+ margin-left: 30px;
+}
+.email{
+    width: 670px;
+    background-color: silver;
+    height: 30px;
+    border-radius: 3px;
+}
+
+select{
+    background-color: silver;
+    height: 30px;
+    border-radius: 3px;
+    width:670px ;
+}
+label{
+    font-family: Arial;
+    font-weight: bolder;
+}

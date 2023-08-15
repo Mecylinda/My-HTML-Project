@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECC9EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    font-family:  sans-serif;
+
+}
+.container{
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    margin-bottom: 32px;
+    border-radius: 10px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     height: 100%;
+
+}
+h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: purple;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+   color: #ECC9EE;
+   font-weight: bold;
+   
+}
+.link p:hover{
+    color: blueviolet;
+}
+.link p{
+    padding: 20px;
+}
+.active{
+    position: relative;
+    color: purple;
+}
+.line{
+    width: 100%;
+    border: 3px solid grey;
+    position: absolute;
+    top: 90px
+
+}
+.active::before{
+    content: '';
+    width: 200%;
+    height: 10px;
+    background-color: purple;
+    top: 123% ;
+    position: absolute;
+    left: -50%;
+    border-radius: 5px;
+    z-index: 2;
+}
+.button img{
+    width: 40px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+   
+}
+.web{
+    background-color: white;
+    color: purple;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+.button .btn{
+    background-color: purple;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.cost{
+    
+    font-weight: bold;
+    background-color: #f7e1f7;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    height: 100px;
+  text-align: center;
+  padding: 20px;
+  line-height: 2em;
+  border-radius: 8px;
+  
+}
+.content{
+    text-align: center;
+    margin: 30px auto
+
+}
+.toggle{
+    height: 20px;
+    width: 90%;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+   
+}
+.inside{
+    width: 31%;
+    height: 20px;
+    background-color: purple;
+    position: absolute;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    left: -1px;
+    top: -3px;
+}
+.point{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: purple;
+    border: 5px solid white;
+    position: absolute;
+    right: 600px;
+    top: -13px ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.list{
+    height: 80%;
+}

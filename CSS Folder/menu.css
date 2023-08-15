@@ -1,0 +1,93 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    max-width: 968px;
+    padding: 0;
+    background-color: rgb(13, 75, 13);
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: orangered;
+   
+    
+}
+.fb{
+    background: url(pictures/vezeti_99_128.png) no-repeat center;
+    background-size: 70px;
+}
+.tw{
+    background: url(pictures/twitter.jpeg) no-repeat center;
+    background-size: 80px;
+}
+.social a{
+    text-indent: -10000px;
+}
+nav ul.social{
+    flex: 1 1 0;
+    display: flex;
+    
+}
+.social{
+    max-width: 80px;
+}
+a:hover{
+   
+    color: blueviolet;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+}
+article{
+    margin-bottom: 20px;
+    padding: 10px;
+   
+   
+}
+p{
+    text-align: justify;
+}
+.text{
+    margin: 20px;
+    background: white;
+   
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    nav ul{
+        display: flex;
+        
+        
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+   article{
+    f
+   }
+}

@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+}
+b{
+    color: brown;
+}
+.lname{
+    float: right;
+}
+.fname{
+    float: left;
+}
+.div{
+    clear: both;
+}

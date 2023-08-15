@@ -1,0 +1,25 @@
+td{
+    width: 50px;
+    height: 10px;
+}
+.ash{
+    background-color: silver;
+    text-align: center;
+}
+.yellow{
+    background-color: rgba(229, 255, 0, 0.285);
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 800px;
+    height: 900px;
+    border: 1px;
+    background-color: white;
+}
+.long{
+    width:45px;
+}

@@ -1,0 +1,28 @@
+nav{
+    background-color: #333;
+    
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    color: white;
+    display: block;
+    text-decoration: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #1c0202;
+}
+@media screen and (min-width: 300px){
+    nav ul{
+        display: flex;
+    }
+   nav li{
+    flex: 1 2 0;
+   }
+    
+}

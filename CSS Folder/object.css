@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+.card{
+    display: inline-block;
+   width: 49.75%;
+   padding: 20px;
+   
+}
+hr{
+    border: 1px solid white;
+    width: 70%;
+    margin-top: 40px;
+}
+header{
+    height: 100vh;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hero h1, .hero p{
+     width: 75%;
+     max-width: 800px; 
+   
+    
+}
+h1{
+    font-size: 4em;
+ 
+}
+.pseudo{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+}
+.pseudo::after{
+    content: "";
+    width: 310px;
+    height: 310px;
+    background: linear-gradient(magenta, cyan);
+    position: absolute;
+    z-index: -1;
+  }
+.animation{
+   display: flex;
+   justify-content: center;
+}
+  
+  
+  .animation h1{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+   display: inline-block;
+    margin: 100px 0;
+
+}
+.a{
+    animation: 1s  infinite jump ease-in-out;
+    background-color: yellow;
+}
+.b{
+    animation: 1s 0.333s infinite jump  ease-in-out;
+    background-color: greenyellow;
+}
+.c{
+    animation: 1s 0.666s infinite jump  ease-in-out;
+    background-color: red;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(0px);
+    
+}
+30%{
+    transform: translateY(-20px);
+}
+100%{
+    transform: translateY(0px);
+}
+}

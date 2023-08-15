@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.align{
+    text-align: right;
+    line-height: 0.5;
+}
+.text{
+    line-height: 0em;
+}
+input{
+    width: 100%;
+    
+}
+.flex1{
+    display: flex;
+    gap: 20px;
+}
+.flex2{
+    width: 100%;
+    margin-bottom: 10px;
+}
+body{
+    padding: 20px;
+    line-height: 2em;
+}
+.flex3{
+   
+}

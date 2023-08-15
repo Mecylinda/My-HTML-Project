@@ -1,0 +1,15 @@
+h1:hover{
+color: blue;
+}
+h2:visited{
+    color: blueviolet;
+}
+h1, h3, strong, b, i{
+    background-color: palevioletred;
+}
+i{
+    background-color:;
+}
+.list{
+    background-color: green;
+}

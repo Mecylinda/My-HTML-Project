@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    }
+.name{
+    text-align: right;
+
+    
+}
+input{
+    width: 100%;
+    
+    
+}
+
+.input{
+    width: 100%;
+   gap: 20px;
+}
+
