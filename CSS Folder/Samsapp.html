@@ -33,37 +33,39 @@
       
      
     </div>
-    <div class="my-form-login" id="fill">
-     <div class="form-login">
-   <button type="button" id="btn-login">Login</button>
-      <button type="button" id="btn-register">Register</button>
-     </div>
-      <form action="">
-        <button type="button" class="close">&times;</button>
-        <div class="register" id="log">
+    <div class="modal">
+      <div class="my-form-login" id="fill">
+        <div class="form-login">
+      <button type="button" id="btn-login">Login</button>
+         <button type="button" id="btn-register">Register</button>
+        </div>
+         <form action="">
+           <button type="button" class="close">&times;</button>
+           <div class="register" id="log">
+             
+               <label for="text">First Name</label>
+                <input type="text" name="firstname," oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="fname" placeholder="First Name">
+                <h3 id="errorfname">Firstname is required</h3>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="lname" placeholder="Last Name">
+                <h3 id="errorlname">Lastname is required</h3>
+            </div>
+          <div class="login" >
+           <label for="text">Email</label>
+           <input type="text" name="email" oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="email" placeholder="Email">
+           <h3 id="erroremail">Email is required</h3>
+           <label for="password">Password</label>
+           <input type="password" name="Password" oninput="doOnFocus(this)" onblur="doOnBlur(this)" id="password" placeholder="Password">
+           <h3 id="errorpassword">Password is required</h3>
+           <input type="button" value="Login" id="form-btn">
           
-            <label for="text">First Name</label>
-             <input type="text" name="firstname," oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="fname" placeholder="First Name">
-             <h3 id="errorfname">Firstname is required</h3>
-             <label for="lastname">Last Name</label>
-             <input type="text" name="lastname" oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="lname" placeholder="Last Name">
-             <h3 id="errorlname">Lastname is required</h3>
-         </div>
-       <div class="login" >
-        <label for="text">Email</label>
-        <input type="text" name="email" oninput="doOnFocus(this)"  onblur="doOnBlur(this)" id="email" placeholder="Email">
-        <h3 id="erroremail">Email is required</h3>
-        <label for="password">Password</label>
-        <input type="password" name="Password" oninput="doOnFocus(this)" onblur="doOnBlur(this)" id="password" placeholder="Password">
-        <h3 id="errorpassword">Password is required</h3>
-        <input type="button" value="Login" id="form-btn">
-       
-       
-        
-      </form>
-
-    </div>
+          
+           
+         </form>
    
+       </div>
+      
+    </div>
  
      </div>
     <div class="container">

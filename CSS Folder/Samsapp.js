@@ -1,4 +1,5 @@
 const myForm = document.querySelector('.my-form-login');
+const modal = document.querySelector('.modal');
 const emailInput = document.querySelector('#email');
 const passwordInput = document.querySelector('#password');
 const errorEmail = document.querySelector('#erroremail');
@@ -20,13 +21,13 @@ const popUp = document.querySelector('.btn-popup');
 const closeBtn = document.querySelector('.close');
 
 closeBtn.onclick = function(){
-  myForm.style.display = 'none';
+  modal.style.display = 'none';
 };
-// window.addEventListener = function(e){
-//   if(e.target.id == 'fill'){
-//   myForm.style.display = 'none';
-// }};
-
+window.onclick = function(event) {
+  if (event.target == myForm) {
+    myForm.style.display = "none";
+  }
+};
 btnReg.onclick = function () {
   register.style.display = 'block';
 btnReg.style.color = 'skyblue';
@@ -42,7 +43,7 @@ btnLogin.onclick = function () {
   btnReg.style.color = 'black';
 };
 popUp.onclick = function () {
-  fill.style.display = 'block';
+  myForm.style.display = 'block';
 }
 function doOnBlur(event) {
 
