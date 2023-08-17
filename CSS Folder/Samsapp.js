@@ -23,11 +23,11 @@ const closeBtn = document.querySelector('.close');
 closeBtn.onclick = function(){
   modal.style.display = 'none';
 };
-window.onclick = function(event) {
-  if (event.target == myForm) {
-    myForm.style.display = "none";
+window.onclick = function(event){
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
-};
+}
 btnReg.onclick = function () {
   register.style.display = 'block';
 btnReg.style.color = 'skyblue';
@@ -43,7 +43,7 @@ btnLogin.onclick = function () {
   btnReg.style.color = 'black';
 };
 popUp.onclick = function () {
-  myForm.style.display = 'block';
+  modal.style.display = 'block';
 }
 function doOnBlur(event) {
 
